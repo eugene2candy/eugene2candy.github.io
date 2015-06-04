@@ -1,0 +1,257 @@
+/*
+Theme Name: Paris - Responsive Parallax Coming Soon Template
+Theme URI: http://www.avathemes.com/HTML5/Paris
+Description: Paris - Responsive Parallax Coming Soon Template
+Author: AvaThemes
+Author URI: http://themeforest.net/user/AVAThemes/portfolio
+Version: 1.0
+Tags: video, simple, grid, dark, black, responsive, mobile optimized, html5, photo, slideshow, coming soon, under construction
+*/
+
+/* -----------------------------------------
+   Loader
+----------------------------------------- */
+
+body {
+	background:#000;
+	text-shadow: 1px 1px 1px rgb(0,0,0);
+}
+
+#loading {
+	position: absolute;
+	top: 0;
+	width:100%;
+	height:100%;
+	background: #2d2440;
+	z-index: 11000;
+	display: block !important;
+}
+
+#loading img {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -20px 0 0 -20px;
+}
+
+.pattern-container {
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.2) url(images/overlays/05.png) repeat;
+	margin:0 auto;
+	padding:0;
+	position:absolute;
+	z-index:1;
+}
+
+#wrapper {
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	background:none;
+	z-index:10;
+	background:url(images/background.png) repeat-x bottom center;
+}
+
+.website-content {
+	width:100%;
+	height:420px;
+	max-width:750px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left:-375px;
+	z-index:200;
+}
+
+h1 {
+	font-family: 'Exo', sans-serif;
+	font-weight:200;
+	font-size:54px;
+	line-height:70px;
+	color:#FFF;
+	text-align:center;
+	padding:0;
+	opacity:0;
+	margin-top:50px;
+	
+}
+
+h1 span {
+	font-family: 'Exo', sans-serif;
+	font-weight:500;
+	font-size:60px;
+	line-height:70px;
+	color:#e3d4a6;
+	text-align:center;
+}
+
+.photo-background a, .p.video-background {
+	margin:0;
+	padding:0;
+}
+
+img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.photo-background {
+	width:350px;
+	height:220px;
+	float:left;
+	opacity:0;
+	margin-top:75px;
+	border:1px solid #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:0;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.video-background {
+	width:350px;
+	height:220px;
+	float:right;
+	opacity:0;
+	margin-top:100px;
+	border:1px solid #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:0;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+/* -----------------------------------------
+   Responsive
+----------------------------------------- */
+
+@media only screen and (max-width: 960px) {
+
+	.website-content {
+		width:100%;
+		height:auto;
+		max-width:350px;
+		position:relative;
+		top:0%;
+		left:0%;
+		margin-top:0px;
+		margin-left:0px;
+		margin:0 auto;
+		z-index:200;
+		padding-top:100px;
+	}
+
+	.photo-background {
+		width:350px;
+		height:250px;
+		float:left;
+		opacity:0;
+		margin-top:75px;
+		border:1px solid #fff;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		margin-bottom:30px;
+		padding:0;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	}
+	
+	.video-background {
+		width:350px;
+		height:250px;
+		float:left;
+		opacity:0;
+		margin-top:100px;
+		border:1px solid #fff;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		padding:0;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	}
+
+}
+
+@media only screen and (max-width: 560px) {
+	
+	#wrapper {
+		background:none;
+	}
+
+	.website-content {
+		width:90%;
+		height:auto;
+		top:0%;
+		left:0%;
+		margin-top:0px;
+		margin-left:5%;
+		margin:0 auto;
+		z-index:200;
+		padding-top:100px;
+		text-align:center;
+		background:none;
+	}
+	
+	h1 {
+		font-family: 'Exo', sans-serif;
+		font-weight:200;
+		font-size:24px;
+		line-height:40px;
+		color:#FFF;
+		text-align:center;
+		padding:0;
+		opacity:0;
+		margin-top:50px;
+		
+	}
+	
+	h1 span {
+		font-family: 'Exo', sans-serif;
+		font-weight:500;
+		font-size:30px;
+		line-height:40px;
+		color:#FFF;
+		text-align:center;
+	}
+	
+	.photo-background img, .video-background img {
+		width:100%;
+		height:100%;
+	}
+
+	.photo-background {
+		width:80%;
+		height:auto;
+		float:left;
+		opacity:0;
+		margin-left:10%;
+		margin-top:75px;
+		border:1px solid #fff;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		margin-bottom:30px;
+		padding:0;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	}
+	
+	.video-background {
+		width:80%;
+		height:auto;
+		float:left;
+		opacity:0;
+		margin-left:10%;
+		margin-top:100px;
+		border:1px solid #fff;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		padding:0;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	}
+}
