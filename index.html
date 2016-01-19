@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>SonJasper - ChengjieXu</title>
-		
-		
+<html >
+  <head>
+    <style type="text/css">a {text-decoration: none; color : #FFF;}</style>
+    <meta charset="UTF-8">
+    <title>SonJasper - ChengjieXu</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,92 +15,64 @@
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="shortcut icon" href="favicon.ico" />
-		 
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
-	</head>
-	<body>
-		<div class="container">	
-			<header>
-				<h1>Welcome To SonJasper`s Homepage<span>Never Forget</span></h1>	
-			</header>
-			<div class="main clearfix">
-				<nav id="menu" class="nav">					
-					<ul>
-						<li>
-							<a href="http://sonjasper.com/blog/">
-								<span class="icon">
-									<i aria-hidden="true" class="icon-home"></i>
-								</span>
-								<span>Blog</span>
-							</a>
-						</li>
-						<li>
-							<a href="http://sonjasper.com/priblog/">
-								<span class="icon"> 
-									<i aria-hidden="true" class="icon-blog"></i>
-								</span>
-								<span>PriBlog</span>
-							</a>
-						</li>
-						<li>
-							<a href="http://tv.sonjasper.com/">
-								<span class="icon">
-									<i aria-hidden="true" class="icon-portfolio"></i>
-								</span>
-								<span>TV</span>
-							</a>
-						</li>
-						<li>
-							<a href="http://justtype.sonjasper.com/">
-								<span class="icon">
-									<i aria-hidden="true" class="icon-services"></i>
-								</span>
-								<span>JustType</span>
-							</a>
-						</li>
-						<li>
-							<a href="http://us.sonjasper.com/">
-								<span class="icon">
-									<i aria-hidden="true" class="icon-team"></i>
-								</span>
-								<span>US</span>
-							</a>
-						</li>
-						<li>
-							<a href="http://sonjasper.com/blog/about.html">
-								<span class="icon">
-									<i aria-hidden="true" class="icon-contact"></i>
-								</span>
-								<span>About</span>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</div><!-- /container -->
-		<script>
-			//  The function to change the class
-			var changeClass = function (r,className1,className2) {
-				var regex = new RegExp("(?:^|\\s+)" + className1 + "(?:\\s+|$)");
-				if( regex.test(r.className) ) {
-					r.className = r.className.replace(regex,' '+className2+' ');
-			    }
-			    else{
-					r.className = r.className.replace(new RegExp("(?:^|\\s+)" + className2 + "(?:\\s+|$)"),' '+className1+' ');
-			    }
-			    return r.className;
-			};	
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
 
-			//  Creating our button in JS for smaller screens
-			var menuElements = document.getElementById('menu');
-			menuElements.insertAdjacentHTML('afterBegin','<button type="button" id="menutoggle" class="navtoogle" aria-hidden="true"><i aria-hidden="true" class="icon-menu"> </i> Menu</button>');
+    
+    
+    
+  </head>
 
-			//  Toggle the class on click to show / hide the menu
-			document.getElementById('menutoggle').onclick = function() {
-				changeClass(this, 'navtoogle active', 'navtoogle');
-			}
-		</script>
-	</body>
+  <body>
+
+    
+<main>
+  <header>
+    <h1>Welcome To SonJasper`s Homepage</h1><a href="http://weibo.com/201266420" target="_blank">by @SonJasper</a>
+  </header>
+  <section class="col">
+    <!-- <div class="button clickable">
+      <input type="checkbox" class="toggle" onclick="window.open('http://www.google.de', '_blank')" target="_blank"/>
+      <div class="anim"></div><span>Click!</span>
+    </div> -->
+    <div class="button hoverable">
+      <div class="anim"></div><span><a href="http://sonjasper.com/blog/" target="_blank" style="text-decoration: none">Blog</a></span>
+    </div>
+    <div class="button hoverable">
+      <div class="anim"></div><span><a href="http://sonjasper.com/priblog/" target="_blank" style="text-decoration: none">PriBlog</a></span>
+    </div>
+    <div class="button hoverable">
+      <div class="anim"></div><span><a href="http://tv.sonjasper.com/" target="_blank" style="text-decoration: none">TV</a></span>
+    </div>
+    
+  </section>
+  <section class="col">
+    <div class="button hoverable">
+      <div class="anim"></div><span><a href="http://justtype.sonjasper.com/" target="_blank" style="text-decoration: none">JustType</a></span>
+    </div>
+    <div class="button hoverable">
+      <div class="anim"></div><span><a href="http://us.sonjasper.com/" target="_blank" style="text-decoration: none">US</a></span>
+    </div>
+    <div class="button hoverable">
+      <div class="anim"></div><span><a href="http://sonjasper.com/blog/about.html" target="_blank" style="text-decoration: none">About</a></span>
+    </div>
+    <!-- <div class="button raised clickable">
+      <input type="checkbox" class="toggle"/>
+      <div class="anim"></div><span>Click!</span>
+    </div>
+    <div class="button raised hoverable">
+      <div class="anim"></div><span>Hover!</span>
+    </div> -->
+  </section>
+</main>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
 </html>
