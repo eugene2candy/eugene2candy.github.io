@@ -1,0 +1,30 @@
+body{
+	font-family:"Hiragino Sans GB W3", "微软雅黑", "Helvetica Neue", Helvetica, Arial, "宋体", sans-serif;
+	color: #575757;
+}
+.wrapper{
+	width: 0 auto;
+	height: 0 auto;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: #0084ff;
+}
+.hammer{
+	background: url("../hammer.png") no-repeat;
+	width: 161px;
+	height: 164px;
+	margin: 0 auto;
+	margin-top: 194px;
+}
+.contentbody{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+}
+.contentfoot{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px
+}
